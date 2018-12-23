@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC908C6921933CB600A0B1EF /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC908C6821933CB600A0B1EF /* BaseTableViewCell.m */; };
-		DC908C6C21933D1300A0B1EF /* BaseTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC908C6B21933D1300A0B1EF /* BaseTableHeaderFooterView.m */; };
+		DC41E1C521CCCAC600BCCB86 /* CXBaseCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41E1C421CCCAC600BCCB86 /* CXBaseCustomViewController.m */; };
+		DC41E1C821CCCF4C00BCCB86 /* CXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41E1C721CCCF4C00BCCB86 /* CXBaseViewController.m */; };
+		DC41E1CB21CCD1D700BCCB86 /* CXControllerBaseViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41E1CA21CCD1D700BCCB86 /* CXControllerBaseViewConfig.m */; };
+		DC41E1D021CCF02000BCCB86 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41E1CE21CCF02000BCCB86 /* DeviceInfo.m */; };
+		DC908C6921933CB600A0B1EF /* CXBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC908C6821933CB600A0B1EF /* CXBaseTableViewCell.m */; };
+		DC908C6C21933D1300A0B1EF /* CXBaseTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC908C6B21933D1300A0B1EF /* CXBaseTableHeaderFooterView.m */; };
 		DC9BF53721870046002E5F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9BF53621870046002E5F37 /* AppDelegate.m */; };
 		DC9BF53A21870046002E5F37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9BF53921870046002E5F37 /* ViewController.m */; };
 		DC9BF53D21870046002E5F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9BF53B21870046002E5F37 /* Main.storyboard */; };
@@ -37,10 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC908C6721933CB600A0B1EF /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
-		DC908C6821933CB600A0B1EF /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
-		DC908C6A21933D1300A0B1EF /* BaseTableHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableHeaderFooterView.h; sourceTree = "<group>"; };
-		DC908C6B21933D1300A0B1EF /* BaseTableHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableHeaderFooterView.m; sourceTree = "<group>"; };
+		DC41E1C321CCCAC600BCCB86 /* CXBaseCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXBaseCustomViewController.h; sourceTree = "<group>"; };
+		DC41E1C421CCCAC600BCCB86 /* CXBaseCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXBaseCustomViewController.m; sourceTree = "<group>"; };
+		DC41E1C621CCCF4C00BCCB86 /* CXBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXBaseViewController.h; sourceTree = "<group>"; };
+		DC41E1C721CCCF4C00BCCB86 /* CXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXBaseViewController.m; sourceTree = "<group>"; };
+		DC41E1C921CCD1D700BCCB86 /* CXControllerBaseViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXControllerBaseViewConfig.h; sourceTree = "<group>"; };
+		DC41E1CA21CCD1D700BCCB86 /* CXControllerBaseViewConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXControllerBaseViewConfig.m; sourceTree = "<group>"; };
+		DC41E1CE21CCF02000BCCB86 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		DC41E1CF21CCF02000BCCB86 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		DC908C6721933CB600A0B1EF /* CXBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXBaseTableViewCell.h; sourceTree = "<group>"; };
+		DC908C6821933CB600A0B1EF /* CXBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXBaseTableViewCell.m; sourceTree = "<group>"; };
+		DC908C6A21933D1300A0B1EF /* CXBaseTableHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXBaseTableHeaderFooterView.h; sourceTree = "<group>"; };
+		DC908C6B21933D1300A0B1EF /* CXBaseTableHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXBaseTableHeaderFooterView.m; sourceTree = "<group>"; };
 		DC9BF53221870046002E5F37 /* CXCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9BF53521870046002E5F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC9BF53621870046002E5F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,23 +101,29 @@
 			children = (
 				DC3DE9BB21885B3500A333B8 /* BaseTableHeaderFooterView */,
 				DC3DE9BA21885B2500A333B8 /* BaseTableViewCell */,
-				DC3DE9B9218858C900A333B8 /* BaseCustomerController */,
+				DC3DE9B9218858C900A333B8 /* BaseCustomViewController */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		DC3DE9B9218858C900A333B8 /* BaseCustomerController */ = {
+		DC3DE9B9218858C900A333B8 /* BaseCustomViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DC41E1C621CCCF4C00BCCB86 /* CXBaseViewController.h */,
+				DC41E1C721CCCF4C00BCCB86 /* CXBaseViewController.m */,
+				DC41E1C321CCCAC600BCCB86 /* CXBaseCustomViewController.h */,
+				DC41E1C421CCCAC600BCCB86 /* CXBaseCustomViewController.m */,
+				DC41E1C921CCD1D700BCCB86 /* CXControllerBaseViewConfig.h */,
+				DC41E1CA21CCD1D700BCCB86 /* CXControllerBaseViewConfig.m */,
 			);
-			path = BaseCustomerController;
+			path = BaseCustomViewController;
 			sourceTree = "<group>";
 		};
 		DC3DE9BA21885B2500A333B8 /* BaseTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				DC908C6721933CB600A0B1EF /* BaseTableViewCell.h */,
-				DC908C6821933CB600A0B1EF /* BaseTableViewCell.m */,
+				DC908C6721933CB600A0B1EF /* CXBaseTableViewCell.h */,
+				DC908C6821933CB600A0B1EF /* CXBaseTableViewCell.m */,
 			);
 			path = BaseTableViewCell;
 			sourceTree = "<group>";
@@ -113,10 +131,27 @@
 		DC3DE9BB21885B3500A333B8 /* BaseTableHeaderFooterView */ = {
 			isa = PBXGroup;
 			children = (
-				DC908C6A21933D1300A0B1EF /* BaseTableHeaderFooterView.h */,
-				DC908C6B21933D1300A0B1EF /* BaseTableHeaderFooterView.m */,
+				DC908C6A21933D1300A0B1EF /* CXBaseTableHeaderFooterView.h */,
+				DC908C6B21933D1300A0B1EF /* CXBaseTableHeaderFooterView.m */,
 			);
 			path = BaseTableHeaderFooterView;
+			sourceTree = "<group>";
+		};
+		DC41E1CC21CCE0AB00BCCB86 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DC41E1CD21CCF01100BCCB86 /* DeviceInfo */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DC41E1CD21CCF01100BCCB86 /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DC41E1CF21CCF02000BCCB86 /* DeviceInfo.h */,
+				DC41E1CE21CCF02000BCCB86 /* DeviceInfo.m */,
+			);
+			path = DeviceInfo;
 			sourceTree = "<group>";
 		};
 		DC9BF52921870046002E5F37 = {
@@ -144,6 +179,7 @@
 			children = (
 				DC9BF53521870046002E5F37 /* AppDelegate.h */,
 				DC9BF53621870046002E5F37 /* AppDelegate.m */,
+				DC41E1CC21CCE0AB00BCCB86 /* Tools */,
 				DC3DE9B82188588100A333B8 /* Base */,
 				DC9BF53821870046002E5F37 /* ViewController.h */,
 				DC9BF53921870046002E5F37 /* ViewController.m */,
@@ -236,6 +272,7 @@
 		DC9BF52A21870046002E5F37 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CX;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = CXTretar;
 				TargetAttributes = {
@@ -307,9 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC41E1C821CCCF4C00BCCB86 /* CXBaseViewController.m in Sources */,
 				DC9BF53A21870046002E5F37 /* ViewController.m in Sources */,
-				DC908C6C21933D1300A0B1EF /* BaseTableHeaderFooterView.m in Sources */,
-				DC908C6921933CB600A0B1EF /* BaseTableViewCell.m in Sources */,
+				DC41E1CB21CCD1D700BCCB86 /* CXControllerBaseViewConfig.m in Sources */,
+				DC908C6C21933D1300A0B1EF /* CXBaseTableHeaderFooterView.m in Sources */,
+				DC908C6921933CB600A0B1EF /* CXBaseTableViewCell.m in Sources */,
+				DC41E1C521CCCAC600BCCB86 /* CXBaseCustomViewController.m in Sources */,
+				DC41E1D021CCF02000BCCB86 /* DeviceInfo.m in Sources */,
 				DC9BF54521870048002E5F37 /* main.m in Sources */,
 				DC9BF53721870046002E5F37 /* AppDelegate.m in Sources */,
 			);

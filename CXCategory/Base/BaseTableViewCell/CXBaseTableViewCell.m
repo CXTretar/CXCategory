@@ -6,35 +6,42 @@
 //  Copyright © 2018 CXTretar. All rights reserved.
 //
 
-#import "BaseTableViewCell.h"
+#import "CXBaseTableViewCell.h"
 
-@implementation BaseTableViewCell
+@implementation CXBaseTableViewCell
 
-+ (instancetype)createCellWithTableView:(UITableView *)tableView {
++ (instancetype)createTableViewCellWithTableView:(UITableView *)tableView {
     
     NSString *reuseIdentifier = NSStringFromClass([self class]);
-    BaseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
+    CXBaseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
+    
     if (!cell) {
+        
         cell = [[self alloc]initWithStyle:UITableViewCellStyleDefault
                           reuseIdentifier:reuseIdentifier];
         cell.tableView = tableView;
     }
-    return cell;
     
+    return cell;
 }
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        
-        self.selectionStyle = UITableViewCellSelectionStyleNone;
-        
-        [self setupUI];
+
+        [self setupCell];
+        [self setupSubViews];
     }
+    
     return self;
 }
 
-- (void)setupUI {
+- (void)setupCell {
     
+    
+}
+
+- (void)setupSubViews {
     
 }
 
@@ -46,5 +53,11 @@
 - (void)loadContent {
     
 }
+
++ (CGFloat)heightWithData:(id)data {
+    
+    return 0;
+}
+
 
 @end
