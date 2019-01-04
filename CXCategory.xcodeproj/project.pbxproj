@@ -21,6 +21,8 @@
 		DC9BF54521870048002E5F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9BF54421870048002E5F37 /* main.m */; };
 		DC9BF54F21870048002E5F37 /* CXCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9BF54E21870048002E5F37 /* CXCategoryTests.m */; };
 		DC9BF55A21870048002E5F37 /* CXCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9BF55921870048002E5F37 /* CXCategoryUITests.m */; };
+		DCC650B221DF08FF009ADE25 /* UIButton+CXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC650AE21DF08FF009ADE25 /* UIButton+CXCategory.m */; };
+		DCC650B321DF08FF009ADE25 /* UILabel+CXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC650B021DF08FF009ADE25 /* UILabel+CXCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,10 @@
 		DC9BF55521870048002E5F37 /* CXCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9BF55921870048002E5F37 /* CXCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXCategoryUITests.m; sourceTree = "<group>"; };
 		DC9BF55B21870048002E5F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC650AE21DF08FF009ADE25 /* UIButton+CXCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CXCategory.m"; sourceTree = "<group>"; };
+		DCC650AF21DF08FF009ADE25 /* UILabel+CXCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CXCategory.h"; sourceTree = "<group>"; };
+		DCC650B021DF08FF009ADE25 /* UILabel+CXCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CXCategory.m"; sourceTree = "<group>"; };
+		DCC650B121DF08FF009ADE25 /* UIButton+CXCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CXCategory.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,7 @@
 		DC9BF53421870046002E5F37 /* CXCategory */ = {
 			isa = PBXGroup;
 			children = (
+				DCC650AD21DF08ED009ADE25 /* UIKit */,
 				DC9BF53521870046002E5F37 /* AppDelegate.h */,
 				DC9BF53621870046002E5F37 /* AppDelegate.m */,
 				DC41E1CC21CCE0AB00BCCB86 /* Tools */,
@@ -208,6 +215,17 @@
 				DC9BF55B21870048002E5F37 /* Info.plist */,
 			);
 			path = CXCategoryUITests;
+			sourceTree = "<group>";
+		};
+		DCC650AD21DF08ED009ADE25 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DCC650B121DF08FF009ADE25 /* UIButton+CXCategory.h */,
+				DCC650AE21DF08FF009ADE25 /* UIButton+CXCategory.m */,
+				DCC650AF21DF08FF009ADE25 /* UILabel+CXCategory.h */,
+				DCC650B021DF08FF009ADE25 /* UILabel+CXCategory.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC650B221DF08FF009ADE25 /* UIButton+CXCategory.m in Sources */,
 				DC41E1C821CCCF4C00BCCB86 /* CXBaseViewController.m in Sources */,
 				DC9BF53A21870046002E5F37 /* ViewController.m in Sources */,
 				DC41E1CB21CCD1D700BCCB86 /* CXControllerBaseViewConfig.m in Sources */,
@@ -352,6 +371,7 @@
 				DC41E1C521CCCAC600BCCB86 /* CXBaseCustomViewController.m in Sources */,
 				DC41E1D021CCF02000BCCB86 /* DeviceInfo.m in Sources */,
 				DC9BF54521870048002E5F37 /* main.m in Sources */,
+				DCC650B321DF08FF009ADE25 /* UILabel+CXCategory.m in Sources */,
 				DC9BF53721870046002E5F37 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
