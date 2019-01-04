@@ -23,6 +23,7 @@
 		DC9BF55A21870048002E5F37 /* CXCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9BF55921870048002E5F37 /* CXCategoryUITests.m */; };
 		DCC650B221DF08FF009ADE25 /* UIButton+CXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC650AE21DF08FF009ADE25 /* UIButton+CXCategory.m */; };
 		DCC650B321DF08FF009ADE25 /* UILabel+CXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC650B021DF08FF009ADE25 /* UILabel+CXCategory.m */; };
+		DCC650B621DF0A0B009ADE25 /* UIImage+CXCompression.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC650B521DF0A0B009ADE25 /* UIImage+CXCompression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		DCC650AF21DF08FF009ADE25 /* UILabel+CXCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CXCategory.h"; sourceTree = "<group>"; };
 		DCC650B021DF08FF009ADE25 /* UILabel+CXCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CXCategory.m"; sourceTree = "<group>"; };
 		DCC650B121DF08FF009ADE25 /* UIButton+CXCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CXCategory.h"; sourceTree = "<group>"; };
+		DCC650B421DF0A0B009ADE25 /* UIImage+CXCompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CXCompression.h"; sourceTree = "<group>"; };
+		DCC650B521DF0A0B009ADE25 /* UIImage+CXCompression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CXCompression.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +227,8 @@
 				DCC650AE21DF08FF009ADE25 /* UIButton+CXCategory.m */,
 				DCC650AF21DF08FF009ADE25 /* UILabel+CXCategory.h */,
 				DCC650B021DF08FF009ADE25 /* UILabel+CXCategory.m */,
+				DCC650B421DF0A0B009ADE25 /* UIImage+CXCompression.h */,
+				DCC650B521DF0A0B009ADE25 /* UIImage+CXCompression.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 				DC908C6C21933D1300A0B1EF /* CXBaseTableHeaderFooterView.m in Sources */,
 				DC908C6921933CB600A0B1EF /* CXBaseTableViewCell.m in Sources */,
 				DC41E1C521CCCAC600BCCB86 /* CXBaseCustomViewController.m in Sources */,
+				DCC650B621DF0A0B009ADE25 /* UIImage+CXCompression.m in Sources */,
 				DC41E1D021CCF02000BCCB86 /* DeviceInfo.m in Sources */,
 				DC9BF54521870048002E5F37 /* main.m in Sources */,
 				DCC650B321DF08FF009ADE25 /* UILabel+CXCategory.m in Sources */,
