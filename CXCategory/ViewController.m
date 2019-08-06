@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIButton+CXCategory.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,7 @@
     CGFloat width    = [UIScreen mainScreen].bounds.size.width;
     CGFloat height   = [UIScreen mainScreen].bounds.size.height;
     NSLog(@"%f -- %f", width, height);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
